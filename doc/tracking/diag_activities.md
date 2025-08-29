@@ -7,7 +7,7 @@ stateDiagram
     login : Se connecter
     logon : Créer un compte
     add_song : Ajouter une chanson
-    Delete_song : SUpprimer une chanson
+    Delete_song : Supprimer une chanson
     create_playlist : Créer une playlist
     modifie_playlist : Modifier une playlist
     save_playlist : Sauvegarder la playlist
