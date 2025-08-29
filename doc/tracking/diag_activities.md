@@ -37,6 +37,6 @@ stateDiagram
 
     state modifie_playlist {
         [*]--> add_song
-        [*]--> delete_song
+        [*]--> Delete_song
     }
 ```
