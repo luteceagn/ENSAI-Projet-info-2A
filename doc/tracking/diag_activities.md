@@ -6,6 +6,8 @@
 stateDiagram
     login : Se connecter
     logon : Créer un compte
+    add_song : Ajouter une chanson
+    Delete_song : SUpprimer une chanson
     create_playlist : Créer une playlist
     modifie_playlist : Modifier une playlist
     save_playlist : Sauvegarder la playlist
@@ -31,5 +33,10 @@ stateDiagram
     	[*] --> modifie_playlist
     	[*] --> logout
         logout --> [*]:retour accueil
+    }
+
+    state modifie_playlist {
+        [*]--> add_song
+        [*]--> delete_song
     }
 ```
