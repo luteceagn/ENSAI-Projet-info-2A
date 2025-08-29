@@ -10,7 +10,7 @@ classDiagram
         +Supprimer_musique(playlist,musique): playlist
     }
     
-    class Compte {
+    class User {
         +Pseudo : string
         +Mdp : string
         +Mail : string
@@ -46,6 +46,6 @@ classDiagram
     VueAbstraite <|-- AccueilVue
     VueAbstraite <|-- ConnexionVue
     VueAbstraite <|-- MenuJoueurVue
-    Compte ..> Playlist: crée
+    User ..> Playlist: crée
     Playlist ..> Musique: contient
 ```
