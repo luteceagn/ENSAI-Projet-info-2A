@@ -46,6 +46,6 @@ classDiagram
     VueAbstraite <|-- AccueilVue
     VueAbstraite <|-- ConnexionVue
     VueAbstraite <|-- MenuJoueurVue
-    User ..> Playlist: crée
+    Compte ..> Playlist: crée
     Playlist ..> Musique: contient
 ```
